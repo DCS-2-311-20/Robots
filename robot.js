@@ -13,7 +13,7 @@ export function makeMetalRobot() {
   // メタルロボットの設定
   const metalRobot = new THREE.Group
   const metalMaterial = new THREE.MeshPhongMaterial(
-    {color: 0x707777, shininess: 60, specular: 0x222222 });
+    {color: 0x707777, shininess: 100, specular: 0x222222 });
   const redMaterial = new THREE.MeshBasicMaterial({color: 0xc00000});
   const legRad = 0.5; // 脚の円柱の半径
   const legLen = 3; // 脚の円柱の長さ
